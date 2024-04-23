@@ -9,6 +9,7 @@ width: 100%;
 background-color: blue;
 position: fixed;
 bottom: 0;
+z-index: 5;
 }
 nav{
 background-color: #282828;
@@ -22,13 +23,14 @@ width: 50px;
 position: fixed;
 left: 0;
 bottom: 50px;
-z-index: 1;
 }
 div.aside-workspace{
+position: relative;
+z-index: 5;
 }
 ul li{
-    z-index: 4;
-    color: blue;
+
+    color: white;
 }
 div.call-to-action{
     background-color:#080b12 ;
