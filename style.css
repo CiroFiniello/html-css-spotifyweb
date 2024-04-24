@@ -9,7 +9,6 @@ body{
 aside{
     border: 1px solid black;
     height:100vh;
-    width: 70px;
 }
 .call-to-action{
     border: 1px solid white;
@@ -43,6 +42,7 @@ div.boxes-container{
     flex-direction: column;
     color: white;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 .list-title{
     display: flex;
@@ -59,7 +59,17 @@ div.boxes-container{
 }
 .list-title ul li{
     padding: .45rem;
-
+}
+#recent{
+    padding: 2rem;
+}
+.boxes{
+    display: flex;
+}
+.box{
+    text-align: center;
+    flex-wrap: wrap;
+    width: calc((100vw / 2) - 43px);
 }
 .footer-container{
     display: flex;
