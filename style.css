@@ -42,15 +42,18 @@ div.boxes-container{
     display: flex;
     flex-direction: column;
     color: white;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .list-title{
     display: flex;
-    
+    justify-content: space-between;
 }
-.list-title ul {
+.list-title ul  {
     display: flex;
     list-style-type: none;
+}
+.list-title ul li{
+    padding: .5rem;
 }
 .footer-container{
     display: flex;
