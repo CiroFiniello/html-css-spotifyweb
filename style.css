@@ -7,8 +7,8 @@ body{
     background-color: #141922;
 }
 aside{
-    border: 1px solid black;
-    height:100vh;
+    background-color: black;
+    height:100%;
 }
 .call-to-action{
     border: 1px solid white;
@@ -64,6 +64,7 @@ div.boxes-container{
 }
 .boxes{
     display: flex;
+    flex-wrap: wrap;
 }
 .box{
     text-align: center;
@@ -72,7 +73,6 @@ div.boxes-container{
     padding: 1rem;
 }
 .footer-container{
-    padding-top: 1rem;
     display: flex;
     justify-content: space-between;
     color: white;
