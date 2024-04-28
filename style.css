@@ -80,6 +80,7 @@ div.boxes-container{
     width: 90%;
 }
 .footer-container{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -87,13 +88,38 @@ div.boxes-container{
 .player{
     border: 1px solid red;
     display: flex;
-    width: 150px;
+    width: calc(50% / 2);
     height: 80px;
     background-color: #282828;
 }.playing{
     border: 1px solid yellow;
     display: flex;
-    width: calc(100% - 200px);
+    width: 50%;
     height: 80px;
     background-color: #282828;
+    flex-direction: column;
+    justify-content: center;
+}
+.play-icon{
+    color: white;
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+.footer-center-bd{
+    display: flex;
+    border: 1px solid grey;
+    width: 80%;
+    height: 10%;
+    align-self: center;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 10%;
+}
+.footer-center-line{
+    height: 2px;
+    background-color: white;
+    width: 30%;
+    margin: 0%;
+    display: flex;
+    margin-right: auto;
 }
