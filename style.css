@@ -91,6 +91,7 @@ div.boxes-container{
     width: calc(50% / 2);
     height: 80px;
     background-color: #282828;
+    display: flex;
 }.playing{
     border: 1px solid yellow;
     display: flex;
@@ -122,4 +123,58 @@ div.boxes-container{
     margin: 0%;
     display: flex;
     margin-right: auto;
+}
+.footer-center-line::before{
+    content: '0:25';
+}
+.footer-center-line::after{
+    content: '4:25';
+    display: none;
+}
+.left{
+    display: flex;
+    padding: .5rem;
+}
+#sinister{
+    height: 50%;
+    display: flex;
+    align-self: center;
+}
+#snstxt{
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    padding: .5rem;
+    font-weight: lighter;
+}
+.grey-txt{
+    color: #828282;
+}
+.icon-lf-player{
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+.right{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: .3rem;
+    font-weight: lighter;
+
+}
+.audio{
+    border: 1px solid grey;
+    height: 3px;
+    width: 80px;
+    border-radius: 20%;
+}
+.audio-line{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+#icon-inv{
+    filter: invert(1);
 }
