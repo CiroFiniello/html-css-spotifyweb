@@ -10,6 +10,15 @@ aside{
     background-color: black;
     height:100%;
 }
+#upgrade{
+    font-size: .7rem;
+    text-transform: uppercase;
+    padding: .9rem;
+    background-color: #080b12;
+    color: white;
+    border-color: white;
+    border-radius: 20%;
+}
 .call-to-action{
     border: 1px solid white;
     padding: .8rem;
@@ -178,3 +187,4 @@ div.boxes-container{
 #icon-inv{
     filter: invert(1);
 }
+/* QUERIES */
