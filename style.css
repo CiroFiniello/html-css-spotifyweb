@@ -200,7 +200,7 @@ div.boxes-container{
     padding: 1rem;
     gap: .3rem;
     font-weight: lighter;
-
+    justify-content: flex-end;
 }
 .audio{
     border: 1px solid grey;
