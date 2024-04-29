@@ -9,7 +9,7 @@ body{
 aside{
     background-color: black;
     height:100%;
-    width: 10%;
+    width: 70px;
 }
 #upgrade{
     font-size: .7rem;
@@ -30,7 +30,7 @@ aside{
 .container{
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 80px);
 }
 #icons{
     display: flex;
@@ -219,7 +219,7 @@ div.boxes-container{
 /* QUERIES */
 @media  screen and (min-width: 576px){
     aside{
-        width: 40%;
+        width: 200px;
     }
     .aside-li{
         width: 2rem;
@@ -289,7 +289,7 @@ div.boxes-container{
 }
 @media  screen and (min-width: 762px){
     aside{
-        width: 20%;
+        width: 250px;
     }
     .box{
         text-align: center;
@@ -343,7 +343,7 @@ div.boxes-container{
 }
 @media  screen and (min-width: 992px){
     aside{
-        width: 25%;
+        width: 250px;
     }
     .box{
         text-align: center;
