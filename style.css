@@ -9,6 +9,7 @@ body{
 aside{
     background-color: black;
     height:100%;
+    width: 20%;
 }
 #upgrade{
     font-size: .7rem;
@@ -17,7 +18,7 @@ aside{
     background-color: #080b12;
     color: white;
     border-color: white;
-    border-radius: 20%;
+    border-radius: 20px;
 }
 .call-to-action{
     border: 1px solid white;
@@ -30,6 +31,15 @@ aside{
     display: flex;
     width: 100%;
     height: 100vh;
+}
+#icons{
+    display: flex;
+    align-items: center;
+    padding-bottom: .5rem;
+    
+}
+#id-txt-ico{
+    display: non
 }
 .aside-workspace{;
     height: 100%;
@@ -55,6 +65,11 @@ div.boxes-container{
     color: white;
     overflow-y: auto;
 }
+.sub{
+    text-decoration: underline;
+    text-decoration-color: #adff2f;
+    
+}
 .list-title{
     display: flex;
 }
@@ -67,6 +82,7 @@ div.boxes-container{
     text-transform: uppercase;
     font-size: .7rem;
     font-weight: 100;
+    color: grey;
 }
 .list-title ul li{
     padding: 1.25rem;
@@ -188,3 +204,63 @@ div.boxes-container{
     filter: invert(1);
 }
 /* QUERIES */
+@media  screen and (min-width: 576px){
+    aside{
+        width: 40%;
+
+    }
+    .aside-li{
+        width: 2rem;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: row;
+    }
+    #id-libreria{
+        width: 150px;
+        display:flex;
+        padding-left: .5rem;
+    }
+    .id-txt-ico{
+        padding-left: .5rem;
+        display: flex;
+        width: 100%;
+    }
+    #icons{
+        color: grey;
+    }
+    #home{
+        color: white;
+    }
+    .h3-playlist{
+        display: inline-block;
+    }
+    .playlist-block{
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    .list-playlist{
+        display: flex;
+        gap: .5rem;
+        color: grey;
+    }
+    .hr-line{
+        width: 50%;
+        filter: opacity(.5);
+    }
+    .list-title ul  {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        list-style-type: none;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    #sinister{
+        height: 69%;
+        display: flex;
+        align-self: center;
+    }
+}
