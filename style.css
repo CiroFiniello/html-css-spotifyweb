@@ -94,6 +94,7 @@ div.boxes-container{
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
+    width: 100%;
 }
 .box{
     text-align: center;
@@ -262,5 +263,56 @@ div.boxes-container{
         height: 69%;
         display: flex;
         align-self: center;
+    }
+}
+@media  screen and (min-width: 576px){
+    .box{
+        text-align: center;
+        flex-wrap: wrap;
+        width: calc(100% / 4);
+        padding: 1rem;
+    }
+    .list-title ul  {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        list-style-type: none;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        font-weight: 100;
+    }
+    .box h2{
+        font-size: 1.3rem;
+    }
+    .box p{
+        font-size: .7rem;
+    }
+    .lower-boxes{
+        display: flex;
+        width: 100%;
+        padding-bottom: 5rem;
+    }
+    #recent{
+        font-size: 2.1rem;
+    }
+    .ascolti{
+        color: grey;
+        padding: 1rem;
+    }
+    .box2 h1{
+        font-size: 1.5rem;
+    }
+    .box2{
+        text-align: center;
+        flex-wrap: wrap;
+        width: calc(100% / 4);
+        padding: rem;
+        flex-direction: row;
+    }
+    .box2-flex{
+        display: flex;
+        width: 100%;
+        gap: 1rem;
     }
 }
